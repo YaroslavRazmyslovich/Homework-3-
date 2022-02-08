@@ -1,6 +1,6 @@
 first_line = input ('please enter the first line: ')
 second_line = input ('please enter the second line: ')
-print ('you entered two lines:', first_line, 'and', second_line)
+print ('you entered two lines:', '\033[4m', first_line, '\033[0m', 'and', '\033[4m', second_line, '\033[0m')
 print ('their length respectively', len (first_line), 'and', len (second_line))
 print ('first symbol of first line -', first_line[0])
 print ('last symbol of second line -', second_line[-1])
